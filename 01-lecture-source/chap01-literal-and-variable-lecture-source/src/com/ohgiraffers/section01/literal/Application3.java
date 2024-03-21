@@ -12,7 +12,7 @@ public class Application3 {
         System.out.println( "9" + 9 );  //99
         System.out.println( 9 + "9" );  //99
 
-        /* 목차 2. 세 개의 문자열 합치기 */
+        /* !!!목차 2. 세 개의 문자열 합치기 !!!*/
         System.out.println("============= 세 개의 문자열 합치기 =============");
         System.out.println("9" + 9 + 9);  //999
         System.out.println(9 + "9" + 9);  //999 //왼쪽의 연산부터 수행하고 수행결과를 오른쪽과 연산함
