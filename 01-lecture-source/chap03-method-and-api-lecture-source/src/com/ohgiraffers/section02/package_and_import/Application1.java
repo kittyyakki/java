@@ -18,13 +18,13 @@ public class Application1 {
         /* 1. non-static method의 경우*/
         com.ohgiraffers.section01.method.Calculator cal = new com.ohgiraffers.section01.method.Calculator();
 
-        int min = cal.minNumberOf(30,20);
+        int min = cal.minNumberOf(30,20); //객체로 불러옴 cal.
 
         System.out.println("30과 20중에 더 작은 값은? " + min);
 
         /* 2.static method의 경우*/
 
-        int max = com.ohgiraffers.section01.method.Calculator.maxNumberOf(30,20); //pakage 경로 다 붙여줌.
+        int max = com.ohgiraffers.section01.method.Calculator.maxNumberOf(30,20); //pakage 경로로 불러줌.
 
         System.out.println("30과 20중에 더 큰 값은? " + max);
     }

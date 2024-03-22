@@ -21,12 +21,12 @@ public class Application2 {
 
         /* 1. non-static method 경우*/
 
-            int min = cal.minNumberOf(30,50);
+            int min = cal.minNumberOf(30,50); //객체로 불러옴
             System.out.println("30과 50중 작은 값은? " + min);
 
         /* 2. static method 경우*/
 
-            int max = maxNumberOf(30,50);
+            int max = maxNumberOf(30,50); //클래스로 불러옴
             System.out.println("30과 50중 큰 값은? " + max);
 
         /* 3. static 메소드를 호출할 때 클래스 명을 생략하고 사용할 수 있다.*/
