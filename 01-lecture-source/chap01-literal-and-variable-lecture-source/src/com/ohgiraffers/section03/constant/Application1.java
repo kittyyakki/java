@@ -36,7 +36,9 @@ public class Application1 {
         System.out.println("AGE의 2배" + ( AGE *2 ));
 
         /* 3-3 대입연산시 활용 */
-        int sum = AGE;   //대입연산자의 오른편에는 기술 가능함 AGE 값은 변하지 않지만 바까줄수 있음
+        int sum = AGE;
+        System.out.println(sum + 10); //20
+        //대입연산자의 오른편에는 기술 가능함 AGE 값은 변하지 않지만 바까줄수 있음
         //AGE = AGE +10;  //대입연산자의 왼쪽편에는 기술 불가능함 30이 되지 않음. 그대로 20.
 
     }

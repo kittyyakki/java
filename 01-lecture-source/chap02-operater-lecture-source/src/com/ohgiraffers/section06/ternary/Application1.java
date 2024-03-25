@@ -19,11 +19,11 @@ public class Application1 {
 
         System.out.println("num1은" + result);
 
-        String result2 = (num2 >0)? "양수입니다" : "양수가 아닙니다";
-        //int result2 = (num2 >0)? 10 : 20; //정수로도 받는 방식 예시 )int
+        //String result2 = (num2 >0)? "양수입니다" : "양수가 아닙니다";
+        int result2 = (num2 >0)? 10 : 20; //정수로도 받는 방식 예시 )int
 
         System.out.println("num2는" + result2);
-        //System.out.println("num2는" + result2); //int
+        System.out.println("num2는" + result2); //int
 
         /* 상항연산자의 중첩사용 */
         int num3 = 5;

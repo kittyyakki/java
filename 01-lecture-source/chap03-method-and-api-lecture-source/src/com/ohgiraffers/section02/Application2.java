@@ -31,7 +31,7 @@ public class Application2 {
 
         /* 3. static 메소드를 호출할 때 클래스 명을 생략하고 사용할 수 있다.*/
 
-            int max2 = maxNumberOf(100,200); //static method 수동 위에 추가.
+            int max2 =maxNumberOf(100,200); //static method 수동 위에 추가.
             System.out.println("100과 200중 큰 값은? " + max2);
 
     }
