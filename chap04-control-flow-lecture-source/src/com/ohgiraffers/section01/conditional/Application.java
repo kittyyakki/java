@@ -19,7 +19,12 @@ public class Application {
         //b.testNeatedIfElseStatement();
 
         C_ifElseIf c = new C_ifElseIf();
-        c.testSimpleIfElseIfStatement();
+        //c.testSimpleIfElseIfStatement();
+        //c.testNestedIfElseIfStatement();
+
+        D_switch d = new D_switch();
+        //d.testSimpleSwitchStatement();
+        d.testSwitchVendingMachine();
 
 
     }
