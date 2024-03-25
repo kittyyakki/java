@@ -205,5 +205,28 @@ public class A_for {
             }
             System.out.println("1부터"+random+"까지의 합은 :"+sum2);
         }
+
+        public void printSimpleGugudan(){
+        /* 수업목표. 무엇을 반복하는지 확인하여 반복문으로 개선할 수 있다
+        *
+        * 키보드로 2~9사이에 구구단을 입력받아
+        * 2~9사이에 경우 해당 단의 구구단을 출력하고
+        * 그렇지 않은 경우 "반드시 2~9 사이의 양수를 입력해야 합니다."출력
+        * */
+
+            Scanner sc = new Scanner(System.in);
+            System.out.println("출력할 구구단의 단 수를 입력하세요 :");
+            int dan = sc.nextInt();
+
+            if(dan>=2 && dan<=9){
+                for(int su = 1; su<=9; su++){
+                    System.out.println(dan + "*" +su +"="+(dan*su));
+                }
+            }else {
+                System.out.println("반드시 2~9 사이의 양수를 입력해야 합니다.");
+            }
+            System.out.println("프로그램을 종료합니다.");
+        }
+
     }
 

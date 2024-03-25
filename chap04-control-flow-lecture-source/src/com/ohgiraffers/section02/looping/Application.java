@@ -10,6 +10,11 @@ public class Application {
         //a.testSimpleForStatement();
         //a.testForExample1();
         //a.testForExample2();
-        a.testForExample3();
+        //a.testForExample3();
+        //a.printSimpleGugudan();
+        A_nestedFor an = new A_nestedFor();
+        //an.printGugudanFromTwoToNice();
+        //an.printStarInputRowTimes();
+        an.printTriangleStars();
     }
 }
