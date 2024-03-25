@@ -46,5 +46,13 @@ public class Application1 {
         System.out.print("참과 거짓의 한가지를 true or false로 입력해주세요 : ");
         boolean result = sc1.nextBoolean();
         System.out.println("입력하신 논리값은 " + result + "입니다.");
+
+        /*2-5 문자형 값 입력 받기 */
+        /* charAt(int index)를 사용한다 */
+        sc1.nextLine();
+        System.out.println("아무 문자나 입력해주세요 :");
+        char ch = sc1.nextLine().charAt(0); //컴퓨터는 0부터 시작~
+        System.out.println("입력하신 문자는 " + ch + "입니다.");
+
     }
 }
