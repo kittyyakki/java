@@ -11,23 +11,23 @@ public class Application2 {
 		System.out.println(y >= 5 || x < 0 && x > 2);
 		 >>앞이 true이기 때문에 뒤엔 볼 필요가 없음.
 		System.out.println(y += 10 - x++);
-		 >>15 -2 = 13 ()으로 묶어 주지 않았기때문에 +1연산이 안됨
+		 >>
 		System.out.println(x+=2);
-		 >>4
+		 >>5
 		System.out.println( !('A' <= c && c <='Z') );
 		 >>false 'A'와 같거나 크다인데 앞에 !(not)이 들어갔으니 부정문으로 false
 		System.out.println('C'-c);
 		 >>'C'의 아스키코드는 67 - 65 : 2
 		System.out.println('5'-'0');
-		 >>5 ''는 숫자로 변환되기 때문에 바로 5-0 : 5
+		 >>문자5해당하는 숫자 문자0해당하는 숫자
 		System.out.println(c+1);
 		 >>65+1 : 66
 		System.out.println(++c);
-		 >>66 +1 앞에서 증가
+		 >>
 		System.out.println(c++);
-		 >>66 +1 뒤에서 증가
+		 >>
 		System.out.println(c);
-		 >> 65
+		 >>
 
 		System.out.println() 의 결과를 예측하고 이유를 설명하시오.
 		*/
