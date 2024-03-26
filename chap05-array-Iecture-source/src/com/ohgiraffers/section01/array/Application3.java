@@ -43,8 +43,10 @@ public class Application3 {
 
         /* 문자열도 가능 */
         String[] sarr = {"apple","orange","grape","melon"};
+
         for(int i = 0; i <sarr.length; i++){
             System.out.println("sarr[ " + i + " ]의 값 : " + sarr[i]);
+
         }
 
 }
