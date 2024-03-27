@@ -30,7 +30,7 @@ public class Application3 {
         print(originArr);
 
         /* 1. for문을 통해서 동일한 인덱스 값 복사 */
-        int[] copyArr = new int[10]; //주소값 달라기고 값 변경 + (방의 길이변경)
+        int[] copyArr = new int[10]; //주소값 달라지고 값 변경 + (방의 길이변경)
 
         for(int i = 0; i<originArr.length; i++){
             copyArr[i] = originArr[i];
