@@ -26,9 +26,12 @@ public class FinalFieldTest {
     /*선언과 동시에 초기화를 해주어야 한다.*/
     //private final int NON_STATIC_NUM; 선언만 해주면 에러남
 
+    /*1번째방법*/
+
     private final int NON_STATIC_NUM  = 1;
 
     /* 생성자를 이용해서 초기화 함*/
+    /*2번째방법*/
     private final String NON_STATIC_NAME;
 
     public FinalFieldTest(String NON_STATIC_NAME) {
