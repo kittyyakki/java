@@ -34,5 +34,21 @@ public class Application {
             System.out.print(iarr[i]);
         }
         System.out.println();
+
+        /* 클래스 자료형 */
+        RectAngle r1 = new RectAngle(12.5,22.5);
+        System.out.println("인자로 전달하는 값 : " +r1);
+        pt.testClassType(r1);
+        //값이 둘다 주소값으로 나오는 이유는 클래스도 얕은 복사를 해주기 때문!!
+        //우리는 클래스를 넘겨준거라 주소값을 전달해줌
+
+        /* 클래스 자료형 배열은 뒤에 다룬다 */
+        /* 가변인자 //꺼내써서 인자는 어떤것이든 가능하다*/
+        //가변인자로 전달받은 method는 overloading하지 않는 것이 좋다 왜냐 hobby를 멀 써줄지 모르기 때문!!
+        //pt.testVariableLengthArray();
+        pt.testVariableLengthArray("라라랄");//가변인자는 전달하지 않아도 에러가안남!! hobby가 없너도!
+        pt.testVariableLengthArray("볼링","라라랄");
+        pt.testVariableLengthArray("순신이","서핑","게임","야구","농구");//여러개가능
+        pt.testVariableLengthArray("메밀이",new String[]{"테니스","롤"});
     }
 }
