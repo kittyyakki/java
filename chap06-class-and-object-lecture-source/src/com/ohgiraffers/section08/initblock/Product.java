@@ -26,6 +26,7 @@ public class Product {
         brand = "사과";
         System.out.println("인스턴스 초기화 블럭 동작함...");
     }
+    /* 정적 초기화 블럭 */
     static {
          /*주의사항
         *  static 초기화블럭에서는 non-static필드를 초기화라지 못 한다.

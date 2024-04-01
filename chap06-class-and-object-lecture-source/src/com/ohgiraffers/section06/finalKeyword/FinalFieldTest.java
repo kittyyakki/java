@@ -36,7 +36,8 @@ public class FinalFieldTest {
 
     public FinalFieldTest(String NON_STATIC_NAME) {
         this.NON_STATIC_NAME = NON_STATIC_NAME;
-    } //파이널은 constructor로 가져와서 선언하면 오류가 안남 왜일가?
+    } //private으로 캡슐화 해줬고, non-static이기 때문에 지역변수가 전역번수보다 우위이니
+    // this로 한번더 선언을 해줘서 나 여기 이거 쓸거야!!라고 해주는것임.
 
     /* 2. static field에 final 사용
     *

@@ -13,7 +13,7 @@ public class parameterTest {
         }
         System.out.println();
 
-        iarr[0]= 99;
+        iarr[0]= 99; //배열 초기화
 
         System.out.print("변경된 값 : ");
         for (int i = 0; i < iarr.length; i++){
@@ -30,7 +30,7 @@ public class parameterTest {
         //
         //자 이제 주소값이 아닌 값으로 나오지
 
-        rectAngle.setHeight(100);
+        rectAngle.setWidth(100);
         rectAngle.setHeight(100); //set값으로 변경!!
 
         System.out.println("=========변경후 사각형의 넓이와 둘레===========");

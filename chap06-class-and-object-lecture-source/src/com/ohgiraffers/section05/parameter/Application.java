@@ -17,12 +17,13 @@ public class Application {
 
         /* 기본자료형으로 전달받는 메소드 확인 */
         int num = 10;
-        pt.testPrimaryType(num);
+        pt.testPrimaryType(num); //[I@2c8d66b2
 
         /* 기본자료형 배열을 매개변수로 전달 받는 메소드 호출확인*/
         int[] iarr = new int[]{1,2,3,4,5};
-        System.out.println("전달인자로 전달하는 값 = " + iarr);
+        System.out.println("전달인자로 전달하는 값 = " + iarr); //[I@2c8d66b2
         pt.testPrimaryTypeArray(iarr); //주소값만 동일하게 복사해온 얕은복사 안에있는 값 변경확인!!
+        //[I@2c8d66b2
 
         /*얕은 복사는 단순히 주소값만 복사하기 때문에 복사된 객체와 원본 객체가 동일한 객체를 참조합니다.
         따라서 하나의 객체를 변경하면 다른 객체도 변경됩니다.
@@ -37,8 +38,8 @@ public class Application {
 
         /* 클래스 자료형 */
         RectAngle r1 = new RectAngle(12.5,22.5);
-        System.out.println("인자로 전달하는 값 : " +r1);
-        pt.testClassType(r1);
+        System.out.println("인자로 전달하는 값 : " +r1);//RectAngle@3cb5cdba
+        pt.testClassType(r1); //RectAngle@3cb5cdba
         //값이 둘다 주소값으로 나오는 이유는 클래스도 얕은 복사를 해주기 때문!!
         //우리는 클래스를 넘겨준거라 주소값을 전달해줌
 
@@ -49,6 +50,6 @@ public class Application {
         pt.testVariableLengthArray("라라랄");//가변인자는 전달하지 않아도 에러가안남!! hobby가 없너도!
         pt.testVariableLengthArray("볼링","라라랄");
         pt.testVariableLengthArray("순신이","서핑","게임","야구","농구");//여러개가능
-        pt.testVariableLengthArray("메밀이",new String[]{"테니스","롤"});
+        pt.testVariableLengthArray("메밀이",new String[]{"테니스","롤"}); //String가변인자로 초기화
     }
 }
