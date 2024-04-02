@@ -21,7 +21,7 @@ public class Application {
         interProduct.nonStaticMethod();
         interProduct.absMethod();
 
-        interProduct.defaultMethod();
+        interProduct.defaultMethod(); //override 를 안하면 인터페이스의 default 메소드로 호출됨
         InterProduct.staticMethod(); //static 은 클래스명으로 호출함
 
         System.out.println(InterProduct.MAX_NUM); //상수필드도 클래스명으로 호출
