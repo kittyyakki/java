@@ -36,7 +36,7 @@ public class Product {
 
     public int getPrice() {
         return price;
-    }
+    }//리턴값 다 정의 일일이 해줌 super로 가져옴
 
     public Date getManufacturingDate() {
         return manufacturingDate;
