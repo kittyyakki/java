@@ -57,5 +57,50 @@ public class Application1 {
         System.out.println("lastIndexOf('a') : " + indexOF.lastIndexOf('a')); //7을 반환 뒤에서부터~~~
         System.out.println("lastIndexOf('z') : " + indexOF.lastIndexOf('z')); //없자나요 -1반환~~
 
+        /* trim() : 문자열의 앞 뒤에 공백을 제거한 문자열을 반환한다. */
+
+        String trimStr = "   java   "; //앞 뒤 공백 3칸
+        System.out.println("trimStr. = # " + trimStr+"#");
+        System.out.println("trim(). = # " + trimStr.trim() + "#"); //공백제거되어 출력
+        System.out.println("trim(). = # " + trimStr + "#"); //다시 출력해도 원본에 영향을 주지 않음.
+
+        /*
+        * toLowerCase() : 모든 문자를 소문자로 변환시킨다.
+        * toUpperCase() : 모든 문자를 대문자로 변환시킨다.
+        * */
+
+        String caseStr = "JavaOracle";
+        System.out.println("toLowerCase() : " + caseStr.toLowerCase()); //소문자로 변경됨
+        System.out.println("toUpperCase() : " + caseStr.toUpperCase()); //대문자로 변경됨
+
+        System.out.println("caseStr = " + caseStr); //원본은 그대로!!
+
+        /*
+        * subString() :  문자열 일부분을 잘라내어 새로운 문자열을 반환한다.
+        * */
+
+        String javaoracle = "javaoracle";
+        System.out.println("subString(3,6) : " + javaoracle.substring(3,6)); //345까지만 나옴 6전까지가 포인트
+        System.out.println("subString(3)" + javaoracle.substring(3)); //3번째부터 끝까지 나옴
+
+        System.out.println("javaoracle" + javaoracle); //원본은 그대로!!
+
+        /* replace() : 문자열에서 대체할 문자열로 기존 문자열을 변경해서 변환한다.*/
+        System.out.println("replace() : " + javaoracle.replace("java","python"));
+        System.out.println("replace() : " + javaoracle); //원본은 그대로!!
+
+        /* length() : 문자열의 길이를 정수형으로 반환한다.*/
+        System.out.println("length() : " + javaoracle.length());
+        System.out.println("빈 문자열의 길이 " + (" ja".length())); //문자와 공백까지 합쳐서 체크해줌
+
+        /* isEmpty() : 문자열의 길이가 0이면 true 를 아니면 false 를 반환*/
+        System.out.println("isEmpty() : " + "".isEmpty()); //없으면 true
+        System.out.println("isEmpty() : " + "    ".isEmpty()); //문자열의 길이가 있을때 false
+
+        /* 길이가 0인 문자열은 null 과는 다르다.*/
+        String str6 = null;
+        String str7 = ""; //얘는 길이가 0임 위에랑 완전다름~
+
+
     }
 }
