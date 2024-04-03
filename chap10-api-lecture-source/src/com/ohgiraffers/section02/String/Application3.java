@@ -17,8 +17,8 @@ public class Application3 {
         *                   구분자를 생략하는 경우 공백이 구분자이다.
         * */
 
-        String emp1 = "100/김나방/서울/영업부/"; //모든값이 존재함
-        String emp2 = "200/우횽순/디자인부/";   //주소없음
+        String emp1 = "100/김나방/서울/영업부"; //모든값이 존재함
+        String emp2 = "200/우횽순/디자인부";   //주소없음
         String emp3 = "300/홍길이/하와이/";    //부서 없음
 
         String[] empArray1 = emp1.split("/");
