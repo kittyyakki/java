@@ -1,7 +1,6 @@
 package com.ohgiraffers.section03.map.run;
 
-import java.util.Date;
-import java.util.HashMap;
+import java.util.*;
 
 public class Application1 {
     public static void main(String[] args) {

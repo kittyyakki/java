@@ -25,13 +25,14 @@ public class Application5 {
         /*
         * peek() : 해당 큐의 가장 앞에 있는 요소(먼저 들어온 요소)를 반환한다.
         * poll() : 해당 큐의 가장 앞에 있는 요소를 반환하고 제거한다.
+        * 두개의 차이점은 peek()은 원본값이 변형되지 않는다는 점이고, poll()은 원본값이 변형된다는 점이다.
         * */
 
         System.out.println("queue.peek() = " + queue.peek());
-        System.out.println("queue = " + queue);
-        System.out.println("queue.poll() = " + queue.poll());
-        System.out.println("queue.poll() = " + queue.poll());
-        System.out.println("queue = " + queue); //first second뺀 값이 나옴
+        System.out.println("queue = " + queue); //peek은 원본값이 변형되지 않는다.
+        System.out.println("queue.poll() = " + queue.poll()); //first
+        System.out.println("queue.poll() = " + queue.poll()); //second
+        System.out.println("queue = " + queue); //first second뺀 값이 나옴.
 
     }
 }

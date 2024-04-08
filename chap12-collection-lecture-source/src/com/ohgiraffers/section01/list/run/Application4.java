@@ -28,11 +28,11 @@ public class Application4 {
         * peek() : 해당 스택의 가장 마지막에 있는 (상단에 있는) 요소 반환
         * pop() : 해당 스택의 가장 마지막에 있는 요소를 반환 후 제거
         * */
-        System.out.println("integerStack.peek() = " + integerStack.peek());
+        System.out.println("integerStack.peek() = " + integerStack.peek()); //5
         //제일 마지막에 있는 것을 꺼냄 
-        System.out.println("integerStack = " + integerStack);//값은 그대로
+        System.out.println("integerStack = " + integerStack);//peek 꺼낸후 값은 그대로
         System.out.println("integerStack.pop() = " + integerStack.pop());
-        System.out.println("integerStack = " + integerStack); //값이 사라짐
+        System.out.println("integerStack = " + integerStack); //pop은 꺼낸 값이 사라짐
         System.out.println("integerStack.pop() = " + integerStack.pop());
         System.out.println("integerStack.pop() = " + integerStack.pop());
         System.out.println("integerStack.pop() = " + integerStack.pop());
